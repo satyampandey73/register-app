@@ -857,7 +857,7 @@ class SignupScreen extends StatelessWidget {
                 onPressed: () => Get.to(() => LoginScreen()),
                 child: Text(
                   'Already have an account? Login',
-                  style: TextStyle(color: Color(0xFF493AD5)),
+                  style: TextStyle(color: Color.fromARGB(255, 198, 236, 6)),
                 ),
               ),
             ],
