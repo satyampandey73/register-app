@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
         //     color: Colors.white,
         //   ),
         // ),
-        backgroundColor: Color(0xFF493AD5),
+        backgroundColor: Color.fromARGB(255, 87, 224, 8),
         centerTitle: true,
       ),
       backgroundColor: Colors.white,
@@ -36,7 +36,7 @@ class LoginScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFF493AD5),
+                    color: Color.fromARGB(255, 225, 182, 8),
                   ),
                 ),
               ),
@@ -45,7 +45,7 @@ class LoginScreen extends StatelessWidget {
                 () => TextField(
                   controller: authController.emailController,
                   decoration: InputDecoration(
-                    prefixIcon: Icon(Icons.email, color: Color(0xFF493AD5)),
+                    prefixIcon: Icon(Icons.email, color: Color.fromARGB(255, 255, 230, 2)),
                     labelText: 'Email',
                     labelStyle: TextStyle(color: Color(0xFF493AD5)),
                     errorText:
