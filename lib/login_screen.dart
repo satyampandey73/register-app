@@ -53,7 +53,7 @@ class LoginScreen extends StatelessWidget {
                             ? null
                             : 'Please enter a valid email',
                     filled: true,
-                    fillColor: Colors.white,
+                    fillColor: const Color.fromARGB(255, 195, 24, 24),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                       borderSide: BorderSide.none,
@@ -71,9 +71,9 @@ class LoginScreen extends StatelessWidget {
                 () => TextField(
                   controller: authController.passwordController,
                   decoration: InputDecoration(
-                    prefixIcon: Icon(Icons.lock, color: Color(0xFF493AD5)),
+                    prefixIcon: Icon(Icons.lock, color: Color.fromARGB(255, 27, 5, 220)),
                     labelText: 'Password',
-                    labelStyle: TextStyle(color: Color(0xFF493AD5)),
+                    labelStyle: TextStyle(color: Color.fromARGB(255, 29, 7, 227)),
                     errorText:
                         authController.isPasswordValid.value
                             ? null
