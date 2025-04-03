@@ -5,7 +5,7 @@ import 'package:register_app/signup_screen.dart';
 void main() {
   runApp(const MyApp());
 }
-
+// sata
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
